@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light shadow shadow-sm">
     <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="{{ asset('Assets/joinprop_biru.png') }}" class="img-fluid"
+        <a class="navbar-brand" href="{{ route('home') }}"><img src="{{ asset('Assets/joinprop_biru.png') }}" class="img-fluid"
                 width="150px" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,9 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             </ul>
             <div>
-                <button class="btn btn-outline-primary" type="submit">Login</button>
+                <a href="{{ route('login') }}" class="text-decoration-none">
+                    <button class="btn btn-outline-primary" type="submit">Login</button>
+                </a>
             </div>
         </div>
     </div>
