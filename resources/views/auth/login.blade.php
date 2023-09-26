@@ -7,9 +7,9 @@
                     <img src="{{ asset('images/exam.jpg') }}" class="img-fluid" width="100%" alt="Gambar">
                 </div>
                 <div class="col-6">
-                    <div class="card-body align-items-center">
-                        <h5 class="card-title mb-5 text-center mt-4">Formulir Login</h5>
-                        <form action="" method="" class="">
+                    <div class="card-body align-items-center mt-5">
+                        {{-- <h5 class="card-title mb-5 text-center mt-4">Formulir Login</h5> --}}
+                        <form action="" method="">
                             <div class="form-group">
                                 <label for="inputEmail">Email</label>
                                 <input type="email" class="form-control mb-3" placeholder="Masukkan email">
